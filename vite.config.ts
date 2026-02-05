@@ -19,6 +19,6 @@ export default defineConfig(({ mode }) => {
         '@': path.resolve(__dirname, '.'),
       }
     },
-    base: '/bigfoot-eagle-research/',
+    base: '/BFE/',
   };
 });
