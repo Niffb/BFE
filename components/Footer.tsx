@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-between items-center">
-                    <p className="text-xs text-neutral-500">© 2026 Bigfoot & The Eagle Research Institute. All rights reserved.</p>
+                    <p className="text-xs text-neutral-500">© 2026 Bigfoot & The Eagle. All rights reserved.</p>
                     <div className="flex gap-6 mt-4 md:mt-0">
                         {['LinkedIn', 'Twitter', 'Insights'].map(social => (
                             <a key={social} href="#" className="text-xs font-medium text-neutral-400 hover:text-white transition-colors">{social}</a>
